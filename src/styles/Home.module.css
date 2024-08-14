@@ -1,0 +1,31 @@
+.wrapper_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+@media only screen and  (max-width: 768px) {
+    .wrapper_content{
+        
+        grid-template-columns: 1fr;
+
+    }
+}
+
+
+
+/* * Header */
+
+@media only screen and  (max-width: 768px) {
+    .result_header, .wrapper_right_side{
+        
+    display: none;
+
+    }
+}
+
+
+/* !  wrapper right side */
+
+
+
