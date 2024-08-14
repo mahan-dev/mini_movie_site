@@ -5,5 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
    base: "https://mahan-dev.github.io/mini_movie_site", 
+  
    
+
 })
