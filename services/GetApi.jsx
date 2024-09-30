@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React from 'react';
-const BASE_URL = "";
-const BASE_URL = "https://cors-anywhere.herokuapp.com/http://www.omdbapi.com/?apikey=9d4ff0f8";
+// const BASE_URL = "";
+const BASE_URL = "https://www.omdbapi.com/?apikey=9d4ff0f8";
 
 const FetchApi = async () =>{
 
